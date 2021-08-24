@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ml</title>
+    <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
   </head>
   <body>
+    <p>
+      This page is about machine learning,
+      written in <a href="https://withorbit.com/">Orbit</a>,
+      the new mnemonic medium introduced by <a href="https://andymatuschak.org/">Andy Matuschak</a>.
+    </p>
+    <p>
+      According to Sebastian Raschka, in Python Machine Learning 3rd ed.,
+      <strong>machine learning</strong> is
+      <em>the application and science of algorithms that make sense of data</em>.
+    </p>
+    <orbit-reviewarea>
+      <orbit-prompt
+        question="What's the definition of machine learning?"
+        answer="The application and science of algorithms that make sense of data"
+        ></orbit-prompt>
+    </orbit-reviewarea>
     <div id="app"></div>
   </body>
 </html>
